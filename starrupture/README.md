@@ -47,7 +47,7 @@ There are two ways to configure your server: via the **Panel** (recommended) or 
 
 ## Method 1: Panel Configuration (Recommended)
 
-This method uses the Pterodactyl Panel and DSSettings.txt for all configuration. It is the recommended approach because settings persist across server restarts, and the in-game management system has known vulnerabilities, such as wiping saves and changing admin passwords.
+This method uses the Pterodactyl Panel and DSSettings.txt for all configuration. It is the recommended approach because settings persist across server restarts, and the in-game management system has known vulnerabilities, such as wiping saves and changing admin passwords. Read more: https://wiki.starrupture-utilities.com/en/dedicated-server/Vulnerability-Announcement
 
 > ⚠️ **Important:** Always stop the server before making configuration changes.
 
@@ -112,9 +112,9 @@ The egg manages `DSSettings.txt` automatically via the Panel's **Startup** tab.
 
 ## Method 2: In-Game Configuration
 
-This method uses the game's built-in **Manage Server** feature. Only use this method if you have issues with DSSettings.txt.
+This method uses the game's built-in **Manage Server** feature. Only use this method if you have issues with DSSettings.txt and are aware of the vulnerabilities mentioned above.
 
-> ⚠️ **Important:** For this method to work, `DSSettings.txt` must **not** exist. Shutdown the server and delete it if present. You'll be stuck on a loading spinner when trying to connect if it exists.
+> ⚠️ **Important:** For this method to work, `DSSettings.txt` must **not** exist. Shutdown the server and delete it if present. You'll be stuck on a loading spinner when trying to connect if it exists. You must also remove `-RCWebControlDisable` from the startup parameters in the **Startup** tab.
 
 ### Password Setup
 
