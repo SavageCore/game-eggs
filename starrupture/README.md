@@ -47,7 +47,7 @@ There are two ways to configure your server: via the **Panel** (recommended) or 
 
 ## Method 1: Panel Configuration (Recommended)
 
-This method uses the Pterodactyl Panel and `DSSettings.txt` for all configuration. This is the recommended approach as settings persist across server restarts.
+This method uses the Pterodactyl Panel and DSSettings.txt for all configuration. It is the recommended approach because settings persist across server restarts, and the in-game management system has known vulnerabilities, such as wiping saves and changing admin passwords.
 
 > ⚠️ **Important:** Always stop the server before making configuration changes.
 
