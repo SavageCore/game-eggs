@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2026-01-20T20:25:47+00:00",
+    "exported_at": "2026-02-09T20:37:39+00:00",
     "name": "StarRupture",
     "author": "talk@savagecore.uk",
     "description": "StarRupture is a first-person open world base-building game with advanced combat and tons of exploration. Play alone or in a group on this sublime and ever-changing planet, extract and manage resources, create your complex industrial system and fight off hordes of alien monsters.",
@@ -70,7 +70,7 @@
             "field_type": "text"
         },
         {
-            "name": "[SERVER] Save Intervall",
+            "name": "[SERVER] Save Interval",
             "description": "Time between automatic saves (in seconds)\r\n\r\n300 = 5 minutes",
             "env_variable": "SAVE_INTERVAL",
             "default_value": "300",
